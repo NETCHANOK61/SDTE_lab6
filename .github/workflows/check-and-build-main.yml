@@ -1,10 +1,8 @@
 name: Check and build docker image on push main branch
-
 on:
   push:
     branches:
       - "main"
-
 jobs:
   check-code:
     name: Check code
@@ -31,6 +29,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: "nam1234/sdte_lab6:latest"
+          tags: nam1234/sdte_lab6:latest
           push: true
-          

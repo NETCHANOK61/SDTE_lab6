@@ -1,5 +1,4 @@
 name: Check code when pull request any branch and push any branch except main
-
 on:
   push:
     branches:
@@ -8,7 +7,6 @@ on:
   pull_request:
     branches:
       - "main"
-
 jobs:
   check-code:
     name: Check code
@@ -18,4 +16,4 @@ jobs:
         uses: actions/checkout@v2
       - run: npm install
       - run: npm run ci
-      
+   
