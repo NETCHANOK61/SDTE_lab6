@@ -29,5 +29,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: nam1234/sdte_lab6:latest
+          tags: nam1234/sdte_lab6
           push: true
