@@ -31,3 +31,4 @@ jobs:
           file: ./Dockerfile
           tags: nam1234/sdte_lab6
           push: true
+
